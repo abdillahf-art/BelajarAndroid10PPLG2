@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ConfirmRegister">
+
+    <TextView
+        android:id="@+id/tvnama"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:text="welcome : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:text="email : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvalamat"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:text="alamat : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvnowa"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:text="no wa : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvpass"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:text="pass : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvconpass"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:text="confpass : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
